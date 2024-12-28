@@ -582,6 +582,7 @@ header .navbar.sticky-header{
 	margin: 0;
 	line-height: 1.6em;
 	overflow: hidden;
+	color: #707070;
 }
 
 .experience-pagination,
