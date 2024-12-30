@@ -658,6 +658,22 @@ header .navbar.sticky-header{
 	margin: 0;
 }
 
+#see-more{
+	background-color: #222;
+	color: #707070;
+	border: 1px solid #333;
+	padding-block: 0.5em;
+	padding-inline: 1.5em;
+}
+
+#see-more a{
+	color: #707070;
+}
+
+#see-more:hover{
+	cursor: pointer;
+}
+
 /***************************************/
 /*****     Portfolio Section css    ****/
 /***************************************/
@@ -1118,6 +1134,16 @@ header .navbar.sticky-header{
 
 .testimonial-pagination .swiper-pagination-bullet-active{
 	background: #008cff;
+}
+
+#more-button{
+	background-color: #111;
+	color: #222;
+	border: none;
+}
+
+#more-button:hover{
+	cursor: pointer;
 }
 
 /*******************************************/
