@@ -27,8 +27,8 @@ function sendMail(event) {
 }
 
 function toggleContent() {
-    const moreText = document.getElementsByClassName("more-text");
-    const moreButton = document.getElementsByClassName("more-button");
+    const moreText = document.getElementById("more-text");
+    const moreButton = document.getElementById("more-button");
 
     if (moreText.style.display === "none") {
         moreText.style.display = "inline";

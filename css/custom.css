@@ -658,7 +658,7 @@ header .navbar.sticky-header{
 	margin: 0;
 }
 
-.see-more{
+#see-more{
 	background-color: #222;
 	color: #707070;
 	border: 1px solid #333;
@@ -666,11 +666,11 @@ header .navbar.sticky-header{
 	padding-inline: 1.5em;
 }
 
-.see-more a{
+#see-more a{
 	color: #707070;
 }
 
-.see-more:hover{
+#see-more:hover{
 	cursor: pointer;
 }
 
@@ -1136,13 +1136,13 @@ header .navbar.sticky-header{
 	background: #008cff;
 }
 
-.more-button{
+#more-button{
 	background-color: #111;
 	color: #222;
 	border: none;
 }
 
-.more-button:hover{
+#more-button:hover{
 	cursor: pointer;
 }
 
