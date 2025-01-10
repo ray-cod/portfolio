@@ -1146,6 +1146,10 @@ header .navbar.sticky-header{
 	cursor: pointer;
 }
 
+#more-text {
+	display: none;
+}
+
 /*******************************************/
 /*****      Newsletter Section css      ****/
 /*******************************************/

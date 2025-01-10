@@ -30,11 +30,13 @@ function toggleContent() {
     const moreText = document.getElementById("more-text");
     const moreButton = document.getElementById("more-button");
 
-    if (moreText.style.display === "none") {
+    if (getComputedStyle(moreText).display === "none") {
         moreText.style.display = "inline";
         moreButton.innerText = "...Less";
     } else {
         moreText.style.display = "none";
         moreButton.innerText = "...More";
     }
+
+    console.log(getComputedStyle(moreText).display);
 }
