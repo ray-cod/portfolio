@@ -1,0 +1,47 @@
+<div class="col-md-6">
+									<!-- Counter Single Start -->
+									<div class="counter-single">
+										<div class="icon-box">
+											<i class="flaticon-employee"></i>
+										</div>
+										<h4 class="counter">1245</h4>
+										<p>Happy Clients</p>
+									</div>
+									<!-- Counter Single End -->
+								</div>
+								
+								<div class="col-md-6">
+									<!-- Counter Single Start -->
+									<div class="counter-single">
+										<div class="icon-box">
+											<i class="flaticon-trophy"></i>
+										</div>
+										<h4 class="counter">289</h4>
+										<p>Awards Achieved</p>
+									</div>
+									<!-- Counter Single End -->
+								</div>
+								
+								<div class="col-md-6">
+									<!-- Counter Single Start -->
+									<div class="counter-single">
+										<div class="icon-box">
+											<i class="flaticon-award"></i>
+										</div>
+										<h4 class="counter">1245</h4>
+										<p>Projects Done</p>
+									</div>
+									<!-- Counter Single End -->
+								</div>
+								
+								<div class="col-md-6">
+									<!-- Counter Single Start -->
+									<div class="counter-single">
+										<div class="icon-box">
+											<i class="flaticon-customer"></i>
+										</div>
+										<h4 class="counter">6025</h4>
+										<p>User Rattings</p>
+									</div>
+									<!-- Counter Single End -->
+								</div>
