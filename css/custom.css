@@ -40,12 +40,12 @@ a:focus{
 }
 
 ::-moz-selection{
-	background: #ff9f9b;
+	background: #5ab5ff;
 	color: #fff;
 }
 
 ::selection{
-	background: #ff9f9b;
+	background: #5ab5ff;
 	color: #fff;
 }
 
