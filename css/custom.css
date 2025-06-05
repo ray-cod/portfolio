@@ -1788,8 +1788,8 @@ header .navbar.sticky-header{
 	}
 }
 
-@media only screen and (max-width: 405px){
+@media only screen and (max-width: 406px){
 	.banner{
-		background-position: -900px top;
+		background-position: -920px top;
 	}
 }
