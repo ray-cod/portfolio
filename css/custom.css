@@ -1602,7 +1602,7 @@ header .navbar.sticky-header{
 	}
 	
 	.banner{
-		background-position: top right;
+		background-position: -500px top;
 	}
 	
 	.section-title{
@@ -1652,7 +1652,7 @@ header .navbar.sticky-header{
 	}
 	
 	.banner{
-		padding: 160px 0 60px;
+		background-position: -600px top;
 	}
 	
 	.banner-content h2{
@@ -1665,6 +1665,7 @@ header .navbar.sticky-header{
 	
 	.banner-content p{
 		font-size: 16px;
+		width: 90%;
 	}
 	
 	.about-content h3{
@@ -1741,6 +1742,14 @@ header .navbar.sticky-header{
 		padding-left: 15px !important;
 		padding-right: 15px !important;
 	}
+
+	.banner{
+		background-position: -750px top;
+	}
+
+	.banner-content p{
+		width: 70%;
+	}
 	
 	.portfolio-nav ul li a{
 		padding: 4px 6px;
@@ -1770,5 +1779,11 @@ header .navbar.sticky-header{
 
 	.navbar-brand h1, .footer-logo h1{
 		font-size: 2rem;
+	}
+}
+
+@media only screen and (max-width: 496px){
+	.banner{
+		background-position: -820px top;
 	}
 }
