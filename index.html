@@ -683,28 +683,33 @@
 					<div class="swiper-container testimonial-slider">
 						<div class="swiper-wrapper">
 							<!-- Testimonial Slide start -->
-							<div class="swiper-slide">
-								<div class="testimonial-single">
-									<div class="testimonial-header">
-										<figure>
-											<img src="images/author-2.jpg" alt="Akim Mbouecky profile picture" />
-										</figure>
-										
-										<h3>Akim Mbuecky</h3>
-										<h4><a href="https://www.linkedin.com/in/akim-m-5a9863220/" target="_blank">Graphic Designer / Software Developer</a></h4>
-									</div>
-									
-									<p>I had the pleasure of working with Raimi Dikamona on a recent project, and I cannot recommend him highly enough. From the very beginning, Raimi demonstrated exceptional technical skills and a deep understanding of software development principles.
-
-									<span id="more-text" > His ability to tackle complex challenges with innovative solutions was truly impressive.
-									He consistently delivered work that was not only functional but also well-documented and maintainable. His passion for coding and his enthusiasm for the project were compelling, and he motivated the entire team to strive for excellence.
-									
-									If you’re looking for a talented and reliable software developer, look no further than Raimi Dikamona. He will undoubtedly bring immense value to any project he is involved in.
-									</span> 
-									<!-- <span id="more-button" onclick="toggleContent()">...More</span> -->
-								</p>
-								</div>
+							<article class="testimonial-single" itemscope itemtype="https://schema.org/Review">
+							<div class="testimonial-header">
+								<figure itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<img src="images/author-2.jpg" alt="Akim Mbuecky profile picture" itemprop="image" />
+								<meta itemprop="name" content="Akim Mbuecky" />
+								</figure>
+								<h3 itemprop="name">Akim Mbuecky</h3>
+								<h4>
+								<a href="https://www.linkedin.com/in/akim-m-5a9863220/" target="_blank" rel="noopener noreferrer" itemprop="sameAs">
+									Graphic Designer / Software Developer
+								</a>
+								</h4>
 							</div>
+
+							<blockquote itemprop="reviewBody">
+								I had the pleasure of working with Raimi Dikamona on a recent project, and I cannot recommend him highly enough. 
+								From the very beginning, Raimi demonstrated exceptional technical skills and a deep understanding of software development principles.
+								<p id="more-text">
+								His ability to tackle complex challenges with innovative solutions was truly impressive.
+								He consistently delivered work that was not only functional but also well-documented and maintainable.
+								His passion for coding and his enthusiasm for the project were compelling, and he motivated the entire team to strive for excellence.
+
+								If you’re looking for a talented and reliable software developer, look no further than Raimi Dikamona. 
+								He will undoubtedly bring immense value to any project he is involved in.
+								</p>
+							</blockquote>
+							</article>
 							<!-- Testimonial Slide end -->
 						</div>
 						
