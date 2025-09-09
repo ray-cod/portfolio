@@ -5,7 +5,7 @@ This site showcases my skills, experience, and projects as a software developer 
 
 ## 🔗 Live Demo
 
-> ![raimi dikamona lassissi - portfolio website](documents/portfolio.png)
+> ![raimi dikamona lassissi - portfolio website](Documents/portfolio.png)
 
 👉 [View the Portfolio](https://raimi-dikamona.com)
 
