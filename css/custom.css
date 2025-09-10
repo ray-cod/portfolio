@@ -621,6 +621,10 @@ header .navbar.sticky-header{
 	gap: 10px;
 }
 
+.shill-btn{
+	margin: auto;
+}
+
 .skill-single h5{
 	font-size: 18px;
 	color: #fff;
