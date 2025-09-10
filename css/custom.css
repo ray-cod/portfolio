@@ -599,8 +599,26 @@ header .navbar.sticky-header{
 	border-color: #008cff;
 }
 
+.skills-container{
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-inline: 20px;
+}
+
 .skill-single{
 	margin-bottom: 30px;
+	border: #008cff 1px solid;
+	border-radius: 0.5rem;
+	background-color: #222;
+	width: 120px;
+	height: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .skill-single h5{
@@ -611,9 +629,9 @@ header .navbar.sticky-header{
 	letter-spacing: 0.04em;
 }
 
-.skill-ratting{
-	font-size: 20px;
-	color: #008cff;
+.skill-single i{
+	color: #26bdef;
+	font-size: 40px;
 }
 
 .counter-single{
